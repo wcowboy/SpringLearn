@@ -15,6 +15,9 @@
     <!--第二种：静态工程的方式-->
     <!--<bean id="bean2" class="com.imooc.ioc.demo2.Bean2Factory" factory-method="creatBean2"/>-->
     <!--第三种：实例工厂的方式-->
-    <bean id="bean3Factory" class="com.imooc.ioc.demo2.Bean3Factory"/>
-    <bean id="bean3" factory-bean="bean3Factory" factory-method="creatBean3"/>
+    <!--<bean id="bean3Factory" class="com.imooc.ioc.demo2.Bean3Factory"/>-->
+    <!--<bean id="bean3" factory-bean="bean3Factory" factory-method="creatBean3"/>-->
+
+    <!--Bean的作用范围-->
+    <bean id="person" class="com.imooc.ioc.demo3.Person"/>
 </beans>
