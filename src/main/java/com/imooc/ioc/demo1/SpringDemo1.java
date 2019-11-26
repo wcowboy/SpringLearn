@@ -8,8 +8,11 @@ public class SpringDemo1 {
 
     @Test
     public void dome1(){
-        UseService useService = new UserServiceImpl();
-        useService.sayHello();
+//        UseService useService = new UserServiceImpl();
+        UserServiceImpl userService = new UserServiceImpl();
+        //设置属性
+        userService.setName("张三");
+        userService.sayHello();
     }
     @Test
     /*
