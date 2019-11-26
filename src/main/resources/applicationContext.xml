@@ -9,4 +9,9 @@
 
         </property>
     </bean>
+    <!--Bean的实例化的三种-->
+    <!--第一种：无参构造器的方式-->
+    <bean id="bean1" class="com.imooc.ioc.demo2.Bean1"/>
+
+
 </beans>
